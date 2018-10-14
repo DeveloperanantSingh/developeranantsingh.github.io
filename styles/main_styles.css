@@ -39,6 +39,7 @@ body
 	font-weight: 400;
 	background: #FFFFFF;
 	color: #a5a5a5;
+
 }
 div
 {
@@ -105,10 +106,10 @@ p a:hover::after
 {
 	background: #e1dada;
 }
-p::selection
+/* p::selection
 {
 	
-}
+} */
 h1{font-size: 48px;}
 h2{font-size: 36px;}
 h3{font-size: 24px;}
@@ -121,15 +122,15 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection, 
+/* h1::selection, 
 h2::selection, 
 h3::selection, 
 h4::selection, 
 h5::selection, 
-h6::selection
+h6::selection 
 {
 	
-}
+}*/
 .form-control
 {
 	color: #db5246;
@@ -535,10 +536,10 @@ section
 	line-height: 0.75;
 	margin-top: 12px;
 }
-.about_content
+/* .about_content
 {
 	
-}
+} */
 .main_content_scroll
 {
 	margin-top: 72px;
@@ -608,7 +609,7 @@ section
 }
 .loader_subtitle
 {
-	font-size: 14px;
+	font-size: 11px;
 	font-weight: 500;
 	color: #7a798c;
 	margin-top: 12px;
